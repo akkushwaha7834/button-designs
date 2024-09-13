@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Design</title>
+</head>
+<style type="text/css">
+    div.text {
+      text-align: center;
+      border: 5px solid #1086e8;
+      width: 16.5rem;
+      top: 10rem;
+      border-radius: 20px;
+      animation: border-flicker 2s linear infinite
+    }
+
+.text h2 {
+  color: #ff00e6;
+  font-family: raleway, sans-serif;
+  font-size: 64px;
+  letter-spacing: 10px;
+  animation: text-flicker 3s linear infinite;
+  text-align: center
+}
+
+.text h1 {
+  color: #ff00e6;
+  font-family: raleway, sans-serif;
+  font-size: 64px;
+  letter-spacing: 10px;
+  animation: text-flicker 3s linear infinite;
+  text-align: center
+}
+
+.offset {
+  animation: letter-flicker 2s linear infinite
+}
+
+@keyframes text-flicker {
+  0% {
+    opacity: .1;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  2% {
+    opacity: 1;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  8% {
+    opacity: .1;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  9% {
+    opacity: 1;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  12% {
+    opacity: .1;
+    text-shadow: 0 0 #f21616
+  }
+
+  20% {
+    opacity: 1;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  25% {
+    opacity: .3;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  30% {
+    opacity: 1;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  70% {
+    opacity: .7;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  72% {
+    opacity: .2;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  77% {
+    opacity: .9;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  100% {
+    opacity: .9;
+    text-shadow: 0 0 29px #f21616
+  }
+}
+
+@keyframes border-flicker {
+  0% {
+    opacity: .1;
+    -webkit-box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73);
+    -moz-box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73);
+    box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73)
+  }
+
+  2% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73);
+    -moz-box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73);
+    box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73)
+  }
+
+  4% {
+    opacity: .1;
+    -webkit-box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73);
+    -moz-box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73);
+    box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73)
+  }
+
+  8% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73);
+    -moz-box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73);
+    box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73)
+  }
+
+  70% {
+    opacity: .7;
+    -webkit-box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73);
+    -moz-box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73);
+    box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73)
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73);
+    -moz-box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73);
+    box-shadow: 0 0 78px 4px rgba(16, 134, 232, .73)
+  }
+}
+
+@keyframes letter-flicker {
+  0% {
+    opacity: .1;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  2% {
+    opacity: .1;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  4% {
+    opacity: 1;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  19% {
+    opacity: 1;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  21% {
+    opacity: .1;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  23% {
+    opacity: 1;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  80% {
+    opacity: 1;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  83% {
+    opacity: .4;
+    text-shadow: 0 0 29px #f21616
+  }
+
+  87% {
+    opacity: 1;
+    text-shadow: 0 0 29px #f21616
+  }
+}
+</style>
+<body style="background-color: black;">
+    <div class="text panel mlounge hide-800">
+<a href="https://silion.in/">
+
+<h2>O<span class="offset">P</span>EN</h2>
+</a>
+</div>
+</body>
+</html>
